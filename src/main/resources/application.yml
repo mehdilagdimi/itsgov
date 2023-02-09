@@ -1,0 +1,26 @@
+server:
+  port: 8090
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
+spring:
+  application:
+    name: gateway
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: authService
+#          uri: lb://AUTH-SERVICE
+#          predicates:
+#            - Path=/auth/**
+#        - id: financeService
+#          uri: lb://FINANCE-SERVICE
+#          predicates:
+#            - Path=/finance/**-
+#        - id: healthcareService
+#          uri: lb://HEALTHCARE-SERVICE
+#          predicates:
+#            - Path=/healthcare/**
