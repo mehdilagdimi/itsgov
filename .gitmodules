@@ -1,0 +1,18 @@
+[submodule "discovery-server"]
+	path = discovery-server
+	url = https://github.com/mehdilagdimi/itsgov
+[submodule ".\\gateway-service\\"]
+	path = .\\gateway-service\\
+	url = https://github.com/mehdilagdimi/itsgov
+[submodule ".\\itsgov-auth-service\\"]
+	path = .\\itsgov-auth-service\\
+	url = https://github.com/mehdilagdimi/itsgov
+[submodule ".\\itsgov-finance-service\\"]
+	path = .\\itsgov-finance-service\\
+	url = https://github.com/mehdilagdimi/itsgov
+[submodule ".\\itsgov-healthcare-service\\"]
+	path = .\\itsgov-healthcare-service\\
+	url = https://github.com/mehdilagdimi/itsgov
+[submodule ".\\itsgov-employee-service\\"]
+	path = .\\itsgov-employee-service\\
+	url = https://github.com/mehdilagdimi/itsgov

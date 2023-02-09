@@ -1,0 +1,11 @@
+Nv brief : ItsGov
+	2 microservices min
+	Minsitère Economoie Finance
+
+
+
+Technologies :
+ 	Spring cloud
+	Eureka
+	Elastic search for ministry of finance
+	Spring boot
