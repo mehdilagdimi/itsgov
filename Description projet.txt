@@ -1,0 +1,11 @@
+"Un Gouvernement a lancé un appel d’offre pour la synchronisation du système d’information de ses ministères. Dans le cadre de son développement il a besoin d'une application qui va gérer l’ensemble des ministères.
+Chaque ministère peut ajouter le département qu’il souhaite et ajouter les salariés qui seront attachés à ce département
+
+
+
+Spring Boot
+Eureka
+Spring Cloud Gateway
+Spring Data JPA
+Spring Security
+ElasticSearch ? 
