@@ -1,0 +1,70 @@
+@startuml
+left to right direction
+'https://plantuml.com/class-diagram
+
+
+class SuperAdmin {
+    username
+    email
+    password
+}
+
+SuperAdmin "1" -- "0..*" FinanceDepartment
+SuperAdmin "1" -- "0..*" HealhDepartment
+SuperAdmin "1" -- "0..*" Employee
+
+'Auth Service
+AuthService -- Employee
+class AuthService {
+    employeeId Long
+    departmentName String
+}
+
+class FinanceFinancialTransaction {
+    id Long
+    date Timestamp
+    amount Double
+}
+
+
+'Finance Service
+FinanceDepartment "1" o-- "0..*" Employee
+FinanceDepartment "1"--"0..*" FinanceFinancialTransaction
+'Healthcare service
+class FinanceDepartment {
+    id Long
+    name String
+    created_at Timestamp
+}
+
+class FinanceFinancialTransaction {
+    id Long
+    date Timestamp
+    amount Double
+}
+
+
+HealhDepartment "1" o-- "0..*" Employee
+HealhDepartment "1"--"0..*" HealthFinancialTransaction
+'Healthcare service
+class HealhDepartment {
+    id Long
+    name String
+    created_at Timestamp
+}
+class HealthFinancialTransaction {
+    id Long
+    date Timestamp
+    amount Double
+}
+
+
+'Employee service
+class Employee {
+    id Long
+    fullname String
+    email String
+    created_at Timestamp
+}
+
+@enduml

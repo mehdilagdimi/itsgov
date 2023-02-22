@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ItsGov.iml" filepath="$PROJECT_DIR$/.idea/ItsGov.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery-server/discovery-server.iml" filepath="$PROJECT_DIR$/discovery-server/discovery-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itsgov-employee-service/employee.iml" filepath="$PROJECT_DIR$/itsgov-employee-service/employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-service/gateway-service.iml" filepath="$PROJECT_DIR$/gateway-service/gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itsgov-auth-service/itsgov-auth-service.iml" filepath="$PROJECT_DIR$/itsgov-auth-service/itsgov-auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/employee/itsgov-employee-service.iml" filepath="$PROJECT_DIR$/employee/itsgov-employee-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itsgov-finance-service/itsgov-finance-service.iml" filepath="$PROJECT_DIR$/itsgov-finance-service/itsgov-finance-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itsgov-healthcare-service/itsgov-healthcare-service.iml" filepath="$PROJECT_DIR$/itsgov-healthcare-service/itsgov-healthcare-service.iml" />
+    </modules>
+  </component>
+</project>

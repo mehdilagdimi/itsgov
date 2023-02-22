@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="discovery-server" />
+        <module name="itsgov-auth-service" />
+        <module name="itsgov-finance-service" />
+        <module name="itsgov-healthcare-service" />
+        <module name="gateway-service" />
+        <module name="itsgov-employee-service" />
+        <module name="employee" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="discovery-server" target="17" />
+      <module name="employee" target="17" />
+      <module name="gateway-service" target="17" />
+      <module name="itsgov-auth-service" target="17" />
+      <module name="itsgov-employee-service" target="17" />
+      <module name="itsgov-finance-service" target="17" />
+      <module name="itsgov-healthcare-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="discovery-server" options="-parameters" />
+      <module name="employee" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
+      <module name="itsgov-auth-service" options="-parameters" />
+      <module name="itsgov-employee-service" options="-parameters" />
+      <module name="itsgov-finance-service" options="-parameters" />
+      <module name="itsgov-healthcare-service" options="-parameters" />
+    </option>
+  </component>
+</project>
